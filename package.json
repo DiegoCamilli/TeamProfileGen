@@ -1,5 +1,31 @@
 {
+  "name": "teamprofilegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest ./tests",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DiegoCamilli/TeamProfileGen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DiegoCamilli/TeamProfileGen/issues"
+  },
+  "homepage": "https://github.com/DiegoCamilli/TeamProfileGen#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
   }
 }
