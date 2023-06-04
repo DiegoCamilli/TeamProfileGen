@@ -166,12 +166,12 @@ const addEngineer = () => {
       {
         name: "github",
         type: "input",
-        message: "What is your Engineer's GitHub? Please enter a link or username. ",
+        message: "What is your Engineer's GitHub username? ",
         validate: (engineerGithub) => {
           if (engineerGithub) {
             return true
           } else {
-            console.log("Uh Oh! Please enter a GitHub link or username. ")
+            console.log("Uh Oh! Please enter a username. ")
             return false
           }
         },
