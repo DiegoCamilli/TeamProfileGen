@@ -248,8 +248,9 @@ const addIntern = () => {
 }
 
 const generateHTML = () => {
-  const html = generateHTML(teamArray)
+  const html = htmlGen(teamArray)
   writeFile(html)
+  return
 }
 
 const writeFile = (data) => {
