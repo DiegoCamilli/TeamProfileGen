@@ -1,0 +1,52 @@
+#teamMemberCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .header {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .card {
+    width: 300px;
+    padding: 50px;
+  }
+  
+  .card-header {
+    background-color: #f8f9fa;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+  }
+  
+  .card-body {
+    background-color: lightgray;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  .card:nth-child(1) .card-header {
+    background-color: #ff5733;
+  }
+  
+  .card:nth-child(2) .card-header {
+    background-color: #ffc300;
+  }
+  
+  .card:nth-child(3) .card-header {
+    background-color: #c70039;
+  }
+  
+  .card:nth-child(4) .card-header {
+    background-color: #900c3f;
+  }
