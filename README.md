@@ -2,6 +2,7 @@
 
 this challenge was especially hard for me. i thought it would be easy because it would be the same as moduel 9 however there were more steps to dynamicaly make html.
 
+![sample](./Assts/sample.png)
 ## criteria
 
 GIVEN a command-line application that accepts user input
